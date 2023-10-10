@@ -17,7 +17,7 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <b class="font-bold poppins">Samuel</b> <span class="">Oak</span>
+        <b class="font-bold poppins">Brian</b> <span class="">Ngugi</span>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
@@ -43,7 +43,7 @@
             <div
                 class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
             />
-            <h4 class="relative z-9">Get in touch</h4>
+            <h4 class="relative z-9">Contact Me</h4>
         </button>
     </div>
 </header>
