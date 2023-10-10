@@ -15,10 +15,21 @@
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
-        <a>
+        <a href={tab.link} class="duration-200 hover:text-violet-400">
             <p>{tab.name}</p>
         </a>
             
         {/each}
     </div>
+    <a 
+    href="https://www.linkedin.com/in/brian-ngugi-aa9b3a1b2/"
+    target=""
+    class="blueshadow relative overflow-hidden px-5 py-2 group rounded-full bg-white test-slate-950">
+        <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
+
+        </div>
+        <h4 class="relative z-9">
+            Get in touch
+        </h4>
+    </a>
 </header>
