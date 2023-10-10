@@ -51,13 +51,13 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Samuel</span> Oak
-                <br />Full Stack
-                <span class="poppins text-violet-400">Developer</span>
+                Hello! I'm <span class="poppins text-violet-400">Brian</span> Ngugi
+                <br />Cybersecurity
+                <span class="poppins text-violet-400">Enthusiat</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite tech</span> includes JavaScript
-                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
+                My <span class="text-violet-400"> favorite tech</span> Penetration Testing
+                (Ethical Hacking), Network Security + System Analyl & PostgreSQL
                 or Firebase/Firestore!
             </p>
             <button
