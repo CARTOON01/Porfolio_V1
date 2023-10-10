@@ -7,11 +7,13 @@
     ]
 </script>
 
-<header>
-    <h1>
+<header class={'sticky z-[10] top-0 duration-200 flex items-center justify-between border border-solid ' + (
+    y > 0 ? ' py-4 bg-slate-950 border-violet-950' : 'py-6 bg-transparent border-transparent'
+)}>
+    <h1 class="font-bold Poppins">
         <b>Brian</b> Ngugi
     </h1>
-    <div class="">
+    <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
         <a>
             <p>{tab.name}</p>
